@@ -50,12 +50,12 @@ const questions = () => {
         type: "list",
         name: "license",
         messgae: "What license would you like to connect to the project?",
-        choices: ["ISC", "MIT", "GNU GPLv3"]
+        choices: ['Apache 2.0', 'BSD 2-Clause', 'BSD 3-Clause', 'GNU AGPLv3.0', 'GNU GPLv2.0', 'GNU GPLv3.0', 'MIT', 'Mozilla Public 2.0']
     }
     ,
     {
         // Not sure what I should put here!
-        type: "confirm",
+        type: "input",
         name: "contributing",
         messgae: "Would you like to add A Code of Conduct for Open Source Communities?"
     }
@@ -68,9 +68,31 @@ const questions = () => {
     ,
     {
         type: "input",
-        name: "quesitons",
-        message: "This needs multiple lines to add in GitHub profile and contact information"
+        name: "github",
+        message: "What is your GitHub username? (required)",
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log("Please enter your GitHub username");
+                return false;
+            }
+        }
     }
+    ,
+    {
+    type: "input",
+    name: "email",
+    message: "What is your Email? (required)",
+    validate: emailInput => {
+        if (emailInput) {
+            return true;
+        } else {
+            console.log("Please enter your Email");
+            return false;
+        }
+    }
+}
     ,
     {
         // I might be able to have this add automatically depending on what they input on the other questions so ignore this one for now.
