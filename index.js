@@ -30,9 +30,9 @@ const questions = () => {
     }
     ,
     {
-        type: "number",
+        type: "input",
         name: "installation",
-        message: "How many steps are required to get the development environment running?"
+        message: "What is the installation process to get the app running?"
     }
     ,
     {
@@ -54,10 +54,10 @@ const questions = () => {
     }
     ,
     {
-        // Not sure what I should put here!
         type: "input",
         name: "contributing",
-        messgae: "Would you like to add A Code of Conduct for Open Source Communities?"
+        messgae: "Who helped in this project? (if none, leave blank)",
+        default: 'Solo Project'
     }
     ,
     {

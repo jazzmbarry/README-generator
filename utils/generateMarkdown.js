@@ -46,6 +46,7 @@ const generateMarkdown = (data) => {
 
   ## Description
   ${data.description}
+  ${data.usage}
 
   ## Table of contents
 
@@ -61,7 +62,12 @@ const generateMarkdown = (data) => {
   ## Tests
   ${data.tests}
 
-  ## Contact
+  ## Contact Information
+  If you have any questions, please reach out to me.
+  
+  [My GitHub](https://github.com/${data.github})
+  
+  ${data.email}
   
 `;
 }
