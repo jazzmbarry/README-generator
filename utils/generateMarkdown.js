@@ -44,25 +44,35 @@ const generateMarkdown = (data) => {
 
   ${licenseBadge}
 
-  ## Description
-  ${data.description}
-  ${data.usage}
-
   ## Table of contents
 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Contact](#contact)
+
+  ## Description
+  ${data.description}
+  
   ## Installation
   ${data.installation}
-
+  
+  ## Usage
+  ${data.usage}
+  
   ## License
   ${data.license}
-
+  
   ## Contributing
   ${data.contributing}
 
   ## Tests
   ${data.tests}
 
-  ## Contact Information
+  ## Contact
   If you have any questions, please reach out to me.
   
   [My GitHub](https://github.com/${data.github})

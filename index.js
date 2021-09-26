@@ -36,14 +36,9 @@ const questions = () => {
     }
     ,
     {
-        type: "confirm",
+        type: "input",
         name: "usage",
-        message: "Would you like to include a picture of the project?",
-        when: pictureInsert => {
-            if (true) {
-                return ("(Your description of the picture)[Picture Pathing i.e ./images/this-picture.png]")
-            }
-        } 
+        message: "How would someone run or use your project?",
     }
     ,
     {
@@ -63,7 +58,7 @@ const questions = () => {
     {
         type: "input",
         name: "tests",
-        message: "This is a placeholder until I figure this out!"
+        message: "What type of tests need to be run for this project?"
     }
     ,
     {
@@ -93,13 +88,6 @@ const questions = () => {
         }
     }
 }
-    ,
-    {
-        // I might be able to have this add automatically depending on what they input on the other questions so ignore this one for now.
-        type: "confirm",
-        name: "tableOfContents",
-        message: "Would you like to include a Table of Contents"
-    }
 ]
 )
    
