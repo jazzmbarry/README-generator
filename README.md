@@ -1,3 +1,8 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
-[How to create a Professional README](./readme-guide.md)
+## Description
+This is a challenge that is for the Coding Bootcamp week 9. It is a program that is run through Node.js that helps you quckily create a README to include to any project you may be working on.
+
+## Screenshot of the app being used
+![README-generator](./images/README-generator.jpg)
+

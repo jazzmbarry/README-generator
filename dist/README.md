@@ -1,6 +1,6 @@
-# test
+# Weather App
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of contents
 
@@ -13,27 +13,27 @@
   * [Contact](#contact)
 
   ## Description
-  test
+  An app that lets you get the latest weather in your location using your location data of you cellphone
   
   ## Installation
-  test
+  Clone app and run in cellphone
   
   ## Usage
-  test
+  
   
   ## License
-  Apache 2.0
+  MIT
   
   ## Contributing
-  test
+  Jessica Pack
 
   ## Tests
-  test
+  Functionality for fetch
 
   ## Contact
   If you have any questions, please reach out to me.
   
-  [My GitHub](https://github.com/test)
+  [My GitHub](https://github.com/jazzmbarry)
   
-  test
+  jazzmbarry@gmail.com
   
